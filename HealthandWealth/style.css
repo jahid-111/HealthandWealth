@@ -9,15 +9,62 @@ body {
 }
 
 .head-section {
+    margin: 0;
     width: 100%;
+    background-image: url(photo/Edited/bg-head.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.head-contetn {}
+.head-content {}
+
+
+#attention {
+    color: goldenrod
+}
+
+
+#hilight-p {
+    color: aqua;
+}
+
+#link-button {
+    padding: 8px 20px;
+    background: linear-gradient(to right, red 30%, yellow 123%);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 15px;
+    color: white;
+}
 
 .cont-left {
     width: 50%;
+    padding: 50px 60px;
+    margin: 0px 20px 10px 0px;
 }
+
+.cont-left h1 {
+    color: brown;
+    font-size: 50px;
+}
+
+
+.cont-left p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
 
 .cont-right {
     width: 50%;
+}
+
+.cont-right img {
+    width: 80%;
+    padding: 50px 60px;
 }
