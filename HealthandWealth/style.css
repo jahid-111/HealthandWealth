@@ -152,21 +152,85 @@ body {
 
 .milestone {
     display: 100%;
+    margin-top: 2%;
 }
 
-.mile-cont {}
+.mile-cont {
+    width: 80%;
+    border-radius: 85px 0px 85px 4px;
+    padding: 10px;
+    height: 150%;
+    margin: 4% 10% 4% 10%;
+    background: #ecf0f2;
+}
 
 .milestone-one {
-    width: 30%;
+    width: 33%;
+    background: #FF0000;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.milestone-one h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5% 5% 0% 4%;
+}
+
+.milestone-one p {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2% 5% 3% 5%;
 }
 
 .milestone-two {
-    width: 30%;
+    width: 34%;
+    background: #fccc63;
+    border-radius: 20px;
+    margin: 10px;
 }
 
-.milestone-three {
-    width: 30%;
+.milestone-two h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5% 5% 0% 4%;
 }
+
+
+.milestone-two p {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2% 5% 3% 5%;
+}
+
+
+
+.milestone-three {
+    width: 34%;
+    background: #3b5998;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.milestone-three h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5% 5% 0% 4%;
+}
+
+.milestone-three p {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2% 5% 3% 5%;
+}
+
+
+
+
 
 .quotes {
     margin-top: 10%;
