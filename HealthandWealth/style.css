@@ -122,7 +122,9 @@ body {
 
 .recipe-one p {
     text-align: justify;
-    margin: 7% 5%;
+    margin: 3% 3%;
+    line-height: 22px;
+    font-weight: 500;
 }
 
 .recipe-two {
@@ -143,5 +145,30 @@ body {
 
 .recipe-two p {
     text-align: justify;
-    margin: 7% 5%;
+    margin: 3% 3%;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.milestone {
+    display: 100%;
+}
+
+.mile-cont {}
+
+.milestone-one {
+    width: 30%;
+}
+
+.milestone-two {
+    width: 30%;
+}
+
+.milestone-three {
+    width: 30%;
+}
+
+.quotes {
+    margin-top: 10%;
+    height: 400px;
 }
