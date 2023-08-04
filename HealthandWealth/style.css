@@ -1,8 +1,8 @@
 body {
     font-family: 'Barlow', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-
 
 .display {
     display: flex;
@@ -14,10 +14,8 @@ body {
     background-image: url(photo/Edited/bg-head.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 670px;
 }
-
-.head-content {}
-
 
 #attention {
     color: goldenrod
@@ -37,6 +35,45 @@ body {
     color: white;
 }
 
+.about-cont {
+    height: 673px;
+}
+
+.recipies-area h2 {
+    margin-left: 40%;
+    margin-right: 40%;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    background: #eef0ed;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 4px 12px;
+    border-radius: 2%;
+    box-shadow: 0px 4px 4px 5px;
+}
+
+
+.recipies-area p {
+    margin-left: 19%;
+    margin-right: 18%;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cont-left {
     width: 50%;
     padding: 50px 60px;
@@ -46,10 +83,10 @@ body {
 .cont-left h1 {
     color: brown;
     font-size: 50px;
+    font-weight: 800;
 }
 
-
-.cont-left p {
+.cont-left h5 {
     font-size: 18px;
 }
 
@@ -65,16 +102,19 @@ body {
 
 /*Recipe  Section Style */
 
+
+
 .recipe-one {
     width: 50%;
-    margin: 3% 5% 3% 6%;
-    background: #b5bad3;
+    margin: 2% 10% 3% 6%;
+    background: rgb(181, 186, 211);
     border-radius: 15px;
+    box-shadow: -4px -7px 20px 4px #c8b6af;
 }
 
 .recipe-one img {
-    width: 90%;
-    margin: 2% 5%;
+    width: 80%;
+    margin: 2% 10%;
     box-shadow: 3px 6px 10px 7px;
     border-radius: 10px;
     height: 340px;
@@ -87,14 +127,15 @@ body {
 
 .recipe-two {
     width: 50%;
-    margin: 3% 5% 3% 6%;
+    margin: 2% 6% 3% 0%;
     border-radius: 15px;
     background: #c8b6af;
+    box-shadow: -4px -7px 20px 4px #b5bad3;
 }
 
 .recipe-two img {
-    width: 90%;
-    margin: 2% 5%;
+    width: 80%;
+    margin: 2% 10%;
     box-shadow: 3px 6px 10px 7px;
     border-radius: 10px;
     height: 340px;
