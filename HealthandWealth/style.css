@@ -8,6 +8,7 @@ body {
     display: flex;
 }
 
+/*START___STRACTURE_to__HEAD and ABOUT*/
 .head-section {
     margin: 0;
     width: 100%;
@@ -21,7 +22,6 @@ body {
     color: goldenrod
 }
 
-
 #hilight-p {
     color: aqua;
 }
@@ -34,6 +34,8 @@ body {
     border-radius: 15px;
     color: white;
 }
+
+
 
 .about-cont {
     height: 673px;
@@ -60,18 +62,7 @@ body {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*ABOUT___SECTION*/
 
 .cont-left {
     width: 50%;
@@ -149,6 +140,8 @@ body {
     font-weight: 500;
 }
 
+/*MILESTONE_STYLE*/
+
 .milestone {
     display: 100%;
     margin-top: 2%;
@@ -196,7 +189,6 @@ body {
     margin: 5% 5% 0% 4%;
 }
 
-
 .milestone-two p {
     font-size: 17px;
     font-weight: 500;
@@ -204,15 +196,12 @@ body {
     margin: 2% 5% 3% 5%;
 }
 
-
-
 .milestone-three {
     width: 34%;
     background: #3b5998;
     border-radius: 20px;
     margin: 10px;
 }
-
 
 .milestone-three h3 {
     text-align: center;
@@ -227,8 +216,7 @@ body {
     margin: 2% 5% 3% 5%;
 }
 
-
-
+/*FOOTER_SUMMARY*/
 
 .source {
     margin-top: 10%;
